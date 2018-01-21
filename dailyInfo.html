@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Daily Info</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="jquery.xdomainajax.js"></script>
+  <script src="common.js" type="text/javascript" charset="utf-8"></script>
+  <script src="delayInfo.js" type="text/javascript" charset="utf-8"></script>
+  <script src="weatherInfo.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header id="header"></header>
+
+  <h1>Travel Info</h1>
+  <div class="delayInfo" id="delayInfo">
+  </div>
+  <div class="keikyu">
+    <input type="button" class="keikyuBtn" value="Web" onClick="location.href='http://unkou.keikyu.co.jp/index.html'">
+  </div>
+
+  <h1 class="otenki">Weather Info</h1>
+  <table id="weatherInfo">
+  </table>
+
+</body>
+</html>
